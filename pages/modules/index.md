@@ -3,7 +3,7 @@ description: |
   Brick Wall modules
 ---
 
-# Brick Wall main Module
+# Brick Wall main module
 - [brick_wall](/modules/brick_wall)
 
 # Application middleware
