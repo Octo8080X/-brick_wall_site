@@ -13,13 +13,13 @@ export default function Features() {
     {
       icon: IconHexagons,
       description: "Modules can be combined to expand functionality.",
-      link: "/docs/introduction#modules",
+      link: "/docs/setup",
     },
     {
       icon: IconAdjustmentsAlt,
       description:
         "Extended functionality can be extended with API extensions for dynamic control.",
-      link: "/docs/introduction#api",
+      link: "/docs/setup#4-customize",
     },
   ];
 
