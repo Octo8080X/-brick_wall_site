@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div>
         <a
-          href="#"
+          href="/docs/introduction"
           class="block mt-4 text-2xl transition-colors text-yellow-200 cursor-pointer inline-flex items-center group px-4 py-2 hover:text-yellow-300"
         >
           Documentation{" "}
