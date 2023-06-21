@@ -1,0 +1,29 @@
+{
+  "docs": {
+    "pages": {
+      "introduction": {
+        "title": "Introduction"
+      },
+      "setup": {
+        "title": "Setup"
+      }
+    }
+  },
+  "modules": {
+    "title": "Modules",
+    "pages": {
+      "brick_wall": {
+        "title": "brick_wall"
+      },
+      "fresh_brick_wall_middleware": {
+        "title": "fresh_brick_wall_middleware"
+      },
+      "brick_wall_static_ip_ban": {
+        "title": "brick_wall_static_ip_ban"
+      },
+      "brick_wall_ip_ban": {
+        "title": "brick_wall_ip_ban"
+      }
+    }
+  }
+}
