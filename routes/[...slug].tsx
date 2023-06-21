@@ -74,7 +74,7 @@ export default await function SlagPage(props: PageProps<Page & {toc: Toc}>) {
       <ModalMounter class="md:hidden" />
       <div class="flex flex-row gap-3">
         <SideBar toc={props.data.toc} />
-        <div class="min-w-0 markdown-body p-4" dangerouslySetInnerHTML={{ __html: Marked.parse(props.data.page.body).content} }>
+        <div class="min-w-0 w-full markdown-body p-4" dangerouslySetInnerHTML={{ __html: Marked.parse(props.data.page.body).content} }>
         </div>
       </div>
     </div>
