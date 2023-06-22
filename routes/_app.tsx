@@ -8,6 +8,7 @@ export default function App({ Component }: AppProps) {
     <div class="min-h-screen w-full bg-gray-50 flex flex-col items-center">
       <Head>
         <meta property="og:type" content="website" />
+        <meta property="og:title" content="Brick Wall" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image" content="https://brickwall.deno.dev/brick_wall_logo.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css" integrity="sha512-Ya9H+OPj8NgcQk34nCrbehaA0atbzGdZCI2uCbqVRELgnlrh8vQ2INMnkadVMSniC54HChLIh5htabVuKJww8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
