@@ -26,3 +26,7 @@ BRICK_WALL_HASHED_PASSWORD=[hashed password]
 
 `BRICK_WALL_JWT_KEY` is generate key from `crypto.subtle.generateKey`.
 `BRICK_WALL_HASHED_PASSWORD` is hash from bcrypt.
+
+## Reference
+
+[https://deno.land/x/fresh_brick_wall_middleware](https://deno.land/x/fresh_brick_wall_middleware)

@@ -22,3 +22,7 @@ brickWall.useHandler(createHandler(["127.0.0.1"]));
 
 await brickWall.start();
 ```
+
+## Reference
+
+[https://deno.land/x/brick_wall_static_ip_ban](https://deno.land/x/brick_wall_static_ip_ban)

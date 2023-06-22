@@ -60,3 +60,7 @@ BRICK_WALL_API_JWT_KEY=XXXXXXXXXXXXX
 BRICK_WALL_API_PASSWORD=[password]
 BRICK_WALL_API_BASE_URL=[https://example.com]
 ```
+
+## Reference
+
+[https://deno.land/x/brick_wall_ip_ban](https://deno.land/x/brick_wall_ip_ban)
