@@ -1,10 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps, Context } from "$fresh/server.ts";
-import Fotter from "../components/Fotter.tsx";
-import Header from "../components/Header.tsx";
 import {getPage, getTocStructure, Toc, type Page} from '../pages/pages.ts'
-import * as gfm from "https://deno.land/x/gfm@0.2.1/mod.ts";
-
 import {Marked} from "https://deno.land/x/markdown_moon@0.0.2/mod.ts"
 import ModalMounter from "../islands/ModalMounter.tsx";
 
@@ -65,8 +61,6 @@ export default await function SlagPage(props: PageProps<Page & {toc: Toc}>) {
   return (
     <div class="max-w-screen-lg flex flex-col gap-3">
       <Head>
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css" integrity="sha512-Ya9H+OPj8NgcQk34nCrbehaA0atbzGdZCI2uCbqVRELgnlrh8vQ2INMnkadVMSniC54HChLIh5htabVuKJww8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-twilight.min.css"></link>
